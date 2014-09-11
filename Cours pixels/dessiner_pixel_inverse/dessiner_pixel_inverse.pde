@@ -53,10 +53,14 @@ void mouseDragged() {
   //sourisY = constrain(mouseY, 0, height-1);
 
   // Une solution alternative :
-  if ((mouseX >= 0)&(mouseX < width)) sourisX = mouseX;
-  if ((mouseY >= 0)&(mouseY < height)) sourisY = mouseY;
+  //if ((mouseX >= 0)&(mouseX < width)) sourisX = mouseX;
+  //if ((mouseY >= 0)&(mouseY < height)) sourisY = mouseY;
 
-
+  // Encore mieux, on applique la méthode de lecture-écriture
+  // que si la souris est positionnée dans la zone du sketch:
+  
+  if ((mouseX >= 0)&(mouseX < width)&(mouseY >= 0)&(mouseY < height)) {
+  
   // Portion lecture des pixels de l’image en mémoire
   img.loadPixels();
   couleurImageOriginale = img.pixels[maFonction(sourisX, sourisY)];
@@ -80,6 +84,8 @@ void mouseDragged() {
   imgCopie.loadPixels();
   imgCopie.pixels[maFonction(sourisX, sourisY)] = color(nouvelleCouleur);
   imgCopie.updatePixels();
+  
+  }
 }
 
 
