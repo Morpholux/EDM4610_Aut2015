@@ -58,33 +58,34 @@ void mouseDragged() {
 
   // Encore mieux, on applique la méthode de lecture-écriture
   // que si la souris est positionnée dans la zone du sketch:
-  
-  if ((mouseX >= 0)&(mouseX < width)&(mouseY >= 0)&(mouseY < height)) {
-  
-  // Portion lecture des pixels de l’image en mémoire
-  img.loadPixels();
-  couleurImageOriginale = img.pixels[maFonction(sourisX, sourisY)];
-  a = (couleurImageOriginale >> 24) & 0xFF;
-  r = (couleurImageOriginale >> 16) & 0xFF;
-  g = (couleurImageOriginale >> 8) & 0xFF;
-  b = couleurImageOriginale & 0xFF;
-  //println("alpha : "+a+", rouge : "+r+" , vert : "+g+", bleu : "+b);
 
-  //a = a;
-  // inversion des valeurs RGB : 255 - valeur
-  r = 255-r;
-  g = 255-g;
-  b = 255-b;
+  if ((mouseX >= 0)&&(mouseX < width)&&(mouseY >= 0)&&(mouseY < height)) {
+    sourisX = mouseX;
+    sourisY = mouseY;
 
-  //nouvelleCouleur = color(r,g,b);
-  nouvelleCouleur = (a << 24) | (r << 16) | (g << 8) | b;
+    // Portion lecture des pixels de l’image en mémoire
+    img.loadPixels();
+    couleurImageOriginale = img.pixels[maFonction(sourisX, sourisY)];
+    a = (couleurImageOriginale >> 24) & 0xFF;
+    r = (couleurImageOriginale >> 16) & 0xFF;
+    g = (couleurImageOriginale >> 8) & 0xFF;
+    b = couleurImageOriginale & 0xFF;
+    //println("alpha : "+a+", rouge : "+r+" , vert : "+g+", bleu : "+b);
 
-  // Procédure d’écriture des pixels dans une copie de l’image originale.
-  // On laisse la trace de notre action, car rien ne vient l’effacer
-  imgCopie.loadPixels();
-  imgCopie.pixels[maFonction(sourisX, sourisY)] = color(nouvelleCouleur);
-  imgCopie.updatePixels();
-  
+    //a = a;
+    // inversion des valeurs RGB : 255 - valeur
+    r = 255-r;
+    g = 255-g;
+    b = 255-b;
+
+    //nouvelleCouleur = color(r,g,b);
+    nouvelleCouleur = (a << 24) | (r << 16) | (g << 8) | b;
+
+    // Procédure d’écriture des pixels dans une copie de l’image originale.
+    // On laisse la trace de notre action, car rien ne vient l’effacer
+    imgCopie.loadPixels();
+    imgCopie.pixels[maFonction(sourisX, sourisY)] = color(nouvelleCouleur);
+    imgCopie.updatePixels();
   }
 }
 
