@@ -1,4 +1,4 @@
-edm4610
+EDM4610
 =======
 
 Contenu du cours «Image de synthèse et interactivité»<br>
