@@ -15,9 +15,15 @@ color couleurImageOriginale, nouvelleCouleur;
 int a, r, g, b;
 int sourisX, sourisY;
 
+// Nouvelle procédure pour obtenir un sketch dont la taille
+// est ajustée aux dimensions d’une image importée.
+
 void setup() {
+  // 1. modification à la propriété de changement de taille de sketch :
+  surface.setResizable(true);
   img = loadImage("ying.jpg");
-  size(img.width, img.height);
+  // 2. commande de rajustement de la taille du sketch :
+  surface.setSize(img.width, img.height);
   imgCopie = createImage(img.width, img.height, RGB); // seule la copie sera modifiée, évitant ainsi d’altérer l’original
 
   // On créé un double de l’image chargée en mémoire :
@@ -103,4 +109,3 @@ int maFonction(int posX, int posY) {
 
   return monIndex;
 }
-
