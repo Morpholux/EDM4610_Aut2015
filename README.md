@@ -15,7 +15,7 @@ _ _ _ _
 
 **Atelier Pixels** - mardi, semaine 2
 
-• Réaliser un sketch en colorisant sa surface à l’aide d’une méthode exclusivement matricielle, c’est-à-dire que les valeurs de couleurs sont assignées directement aux pixels. On peut considérer le chargement d’images comme source de données. On évite l’utilisation des commande set() ou get().
+• Réaliser un sketch en colorisant sa surface à l’aide d’une méthode exclusivement matricielle, c’est-à-dire que les valeurs de couleurs sont assignées directement aux pixels. On peut considérer le chargement d’images comme source de données. On évite l’utilisation des commandes set() ou get().
 
 Notions à considérer :
 >> pixels[], loadPixels(), updatePixels(), loadImage(), PImage
