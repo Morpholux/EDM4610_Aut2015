@@ -11,14 +11,16 @@ N’hésitez pas à consulter le <a href="https://github.com/jmcouillard/EDM4610
 
 _ _ _ _
 
-***Description des exercices***
+####Description des exercices
 
 **Atelier Pixels** - mardi, semaine 2
 
 • Réaliser un sketch en colorisant sa surface à l’aide d’une méthode exclusivement matricielle, c’est-à-dire que les valeurs de couleurs sont assignées directement aux pixels. On peut considérer le chargement d’images comme source de données. On évite l’utilisation des commandes set() ou get().
 
 Notions à considérer :
->> pixels[], loadPixels(), updatePixels(), loadImage(), PImage
 
+`pixels[], loadPixels(), updatePixels(), loadImage(), PImage`
 
+<br>
+<br>
 _ _ _ _
