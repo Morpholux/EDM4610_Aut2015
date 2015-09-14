@@ -9,7 +9,8 @@ Enseignants : Jean-François Renaud (professeur), <a href="https://github.com/jm
 
 N’hésitez pas à consulter le <a href="https://github.com/jmcouillard/EDM4610">Repository</a> du cours développé par Jean-Maxime. Vous y trouverez ses notes de cours et les exemples qu’il a préparés en vue des séances du vendredi.<br>
 
-_ _ _ _
+<br>
+_ _ _
 
 ####Description des exercices
 
@@ -22,5 +23,4 @@ Notions à considérer :
 `pixels[], loadPixels(), updatePixels(), loadImage(), PImage`
 
 <br>
-<br>
-_ _ _ _
+_ _ _
