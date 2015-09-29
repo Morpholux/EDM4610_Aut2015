@@ -33,4 +33,14 @@ Notions à considérer :
 `vertex(), curve(), bezier(), curveVertex(), bezierVertex(), beginShape() endShape(), PShape`
 
 <br>
+
+**Atelier Array et systèmes de pige** - mardi, semaine 4
+
+• Réaliser un sketch dont le dessin repose sur la construction préalable d’un tableau (Array) et la lecture des données en mémoire. Éventuellement on vise une transformation dynamique des données du tableau (écriture, copie, ajout, effacement, ordonnancement, etc.). On utilise les Array standards de Processing, ou les ArrayList si l’on exploite des classes (la programmation-objet). Deux exemples : le dessin d’un polygone se fait en fonction d’une liste de coordonnées, qui sont ensuite modifiées à chaque clic de souris; des rayures sont colorées séquentiellement suivant une palette indexée dans un tableau.
+
+Notions à considérer :
+
+`Array, [], [][], .length(), Array Functions : append(), expand()…, ArrayList<>, .size(), .clear(), .get(), .set()`
+
+<br>
 _ _ _
