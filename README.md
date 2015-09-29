@@ -41,6 +41,7 @@ Notions à considérer :
 Notions à considérer :
 
 `Array, [], [][], .length(), Array Functions : append(), expand()…`
+
 `ArrayList<>, .size(), .clear(), .get(), .set()`
 
 <br>
