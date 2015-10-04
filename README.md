@@ -49,15 +49,25 @@ Notions à considérer :
 
 **Atelier transformateurs géométriques et intro PVector** - mardi, semaine 5
 
-• Revoir le principe de répartition de primitives sur une grille en exploitant un positionnement par PVector. En d’autres termes, des objets sont dessinés à des positions en X et en Y qui se trouvent à être calculées par des opérations sur des vecteurs. Bonus : les objets qui sont dessinés sont toujours orientés vers le curseur de la souris, même lors de déplacements.
+• Revoir le principe de répartition de primitives sur une grille en exploitant cette fois un positionnement par PVector. En d’autres termes, des objets sont dessinés à des positions en X et en Y qui se trouvent à être calculées par des opérations sur des vecteurs. Bonus : les objets qui sont dessinés sont toujours orientés vers le curseur de la souris, même lors de déplacements.
 
-Nous allons au préalable revoir les bases des transformateurs géométriques, ainsi que les commandes qui permettent de limiter leur effet.
+Nous allons au préalable revoir les bases des transformateurs géométriques, ainsi que les commandes qui permettent de limiter leur portée.
 
 Notions à considérer :
 
 `pushMatrix(), popMatrix(), translate(), rotate(), scale()`
 
-`PVector, .add(), .sub(), .set(), .normalize(), .mult(), .limit()`
+`PVector, .add(), .set(), .heading()`
+
+<br>
+
+**Atelier PVector et simulation de forces physiques** - mardi, semaine 6
+
+• Créer une animation dont les mouvements sont gérés par des opérations sur les PVector. On s’efforce d’introduire des simulations de forces physiques : vitesse, accélération, friction, gravité, déviation, etc.
+
+Notions à considérer :
+
+`PVector, .add(), .sub(), .set(), .normalize(), .mult(), .limit(), .cross()`
 
 <br>
 _ _ _
