@@ -67,7 +67,7 @@ Notions à considérer :
 
 Notions à considérer :
 
-`PVector, .add(), .sub(), .set(), .normalize(), .mult(), .limit(), .cross()`
+`PVector, .add(), .sub(), .set(), mag(), .setMag(), .normalize(), .mult(), .limit(), .cross()`
 
 <br>
 _ _ _
