@@ -54,7 +54,7 @@ Notions à considérer :
 [![Grille avec PVector](https://c1.staticflickr.com/1/695/21927570291_8fc275c654_n.jpg
 "Cliquez pour afficher l’image sur le compte Flickr")](https://www.flickr.com/photos/jfrenaud/21927570291/)
 
-Nous allons au préalable revoir les bases des transformateurs géométriques, ainsi que les commandes qui permettent de limiter leur portée.
+Nous allons au préalable réviser les bases des transformateurs géométriques, ainsi que les commandes qui permettent de limiter leur portée.
 
 Notions à considérer :
 
