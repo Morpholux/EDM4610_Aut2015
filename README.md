@@ -51,7 +51,9 @@ Notions à considérer :
 
 • Revoir le principe de répartition de primitives sur une grille en exploitant cette fois un positionnement par PVector. En d’autres termes, des objets sont dessinés à des positions en X et en Y qui se trouvent à être calculées par des opérations sur des vecteurs. Bonus : les objets qui sont dessinés sont toujours orientés vers le curseur de la souris, même lors de déplacements.
 
-[![Grille avec PVector](https://c1.staticflickr.com/1/695/21927570291_8fc275c654.jpg "Cliquez pour afficher l’image du compte Flickr")][https://www.flickr.com/photos/jfrenaud/21927570291/sizes/m/]
+[![Grille avec PVector](https://c1.staticflickr.com/1/695/21927570291_8fc275c654_n.jpg
+"Cliquez pour afficher l’image sur le compte Flickr")]
+[<https://www.flickr.com/photos/jfrenaud/21927570291/sizes/m/>]
 
 Nous allons au préalable revoir les bases des transformateurs géométriques, ainsi que les commandes qui permettent de limiter leur portée.
 
