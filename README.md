@@ -66,7 +66,7 @@ Notions à considérer :
 
 T9 . **Atelier PVector et simulation de forces physiques** - mardi, semaine 6
 
-• Créer une animation dont les mouvements sont gérés par des opérations sur les PVector. On s’efforce d’introduire des simulations de forces physiques : vitesse, accélération, friction, gravité, déviation, etc.
+• Créer une animation dont les mouvements sont gérés par des opérations sur les PVector. On s’efforce d’introduire des simulations de forces physiques : vitesse, accélération, friction, gravité, déviation, etc. À la base, il faut exploiter la méthodologie des trois vecteurs de base : location, velocity, acceleration. Il faut ensuite introduire une force externe qui viendra influencer l’élan initial. Par exemple, une force de friction, un mouvement brownien, un rebond, etc.
 
 Notions à considérer :
 
