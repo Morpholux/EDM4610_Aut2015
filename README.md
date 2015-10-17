@@ -74,9 +74,9 @@ Notions à considérer :
 
 <br>
 
-T11 . **Synchronicités audiovisuelles** - mardi, semaine 6
+T11 . **Synchronicités audiovisuelles** - mardi, semaine 7
 
-• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. À l’instar du VJ, votre Sketch, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu d’explorer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
+• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. À l’instar du rôle d’un VJ, votre Sketch, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu d’explorer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
 
 Typologie des actions et des dynamiques :
 
