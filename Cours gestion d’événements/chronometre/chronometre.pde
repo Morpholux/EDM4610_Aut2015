@@ -31,7 +31,6 @@ void mousePressed() {
 }
 
 float millisToSec(float _t) {
-  float t = _t;
-  t *= 0.001;
-  return t;
+  _t *= 0.001;
+  return _t;
 }
