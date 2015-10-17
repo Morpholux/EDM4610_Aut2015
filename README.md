@@ -82,7 +82,6 @@ T11 . **Synchronicités audiovisuelles et gestion d’événements** - mardi, se
 (https://dl.dropboxusercontent.com/s/65idcjiokkx0szb/visual_music_small.jpeg
 "Quelques livres sur le thème de la visualisation de la musique")
 
-https://dl.dropboxusercontent.com/s/65idcjiokkx0szb/visual_music_small.jpeg
 
 Typologie des actions et des dynamiques d’événement :
 
