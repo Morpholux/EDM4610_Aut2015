@@ -25,9 +25,13 @@ void mousePressed() {
   else {
     tempsUn = millis();
     tempsEcoule = tempsUn - tempsZero;
-    tempsEcoule *= 0.001;
-    println("Décompte du chronomètre : " + tempsEcoule +" seconde(s)");
+    println("Décompte du chronomètre : " + millisToSec(tempsEcoule) +" seconde(s)");
     chronoActif = false;
   }
 }
 
+float millisToSec(float _t) {
+  float t = _t;
+  t *= 0.001;
+  return t;
+}
