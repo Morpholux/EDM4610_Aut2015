@@ -76,7 +76,9 @@ Notions à considérer :
 
 T11 . **Synchronicités audiovisuelles et gestion d’événements** - mardi, semaine 7
 
-• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. À l’instar des techniques de VJing, votre *Sketch*, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu de développer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
+• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. Voyez cet exemple d’un instrument en ligne : [Patatap](http://www.patatap.com)
+
+À l’instar des techniques de VJing, votre *Sketch*, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu de développer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
 
 ![Visual Music]
 (https://dl.dropboxusercontent.com/s/65idcjiokkx0szb/visual_music_small.jpeg
