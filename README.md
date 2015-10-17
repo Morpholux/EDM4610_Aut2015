@@ -76,16 +76,16 @@ Notions à considérer :
 
 T11 . **Synchronicités audiovisuelles** - mardi, semaine 6
 
-• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. À l’instar du VJ, votre Sketch permettra de faire des interventions pendant l’écoute d’une musique. Il y a donc lieu d’explorer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
+• Créer un «instrument visuel» simple, dont les affichages répondent à une forme de contrôle externe, de type performatif. À l’instar du VJ, votre Sketch, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu d’explorer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
 
-Typologie des actions et des dynamiques à considérer :
+Typologie des actions et des dynamiques :
 
 1. Bang binaire (du type On|Off);
 2. Bang avec donnée d’intensité (une note MIDI et sa vélocité, par exemple);
 3. Continuum : éléments qui se succèdent d’une façon continue (les contrôles continus en MIDI par exemple);
 4. Geste : action d’un tracé sur une surface, dans l’espace, et transposition de la donnée, au besoin.
 
-Figures d’expression à explorer :
+Figures d’expression :
 
 1. Synchronie (des stimuli sonore et visuel sont associés, du fait qu’ils sont perçus en même temps)
 2. Intensification (lien entre amplitude sonore et luminosité des couleurs, par exemple)
