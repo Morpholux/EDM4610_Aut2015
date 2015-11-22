@@ -13,8 +13,8 @@ void setup() {
   rectMode(CENTER);
   colorMode(HSB);
 
-  //MidiBus.list();
-  myBus = new MidiBus(this, 1, 1); // À ajuster selon vos propres clients MIDI.
+  MidiBus.list();
+  myBus = new MidiBus(this, 0, 1); // À ajuster selon vos propres clients MIDI.
 }
 
 void draw() {
@@ -32,13 +32,13 @@ void draw() {
 }
 
 void noteOn(int channel, int pitch, int velocity) {
-  // Réception de la note # 48 (do du quatrième octave, ou C4)
+  // Réception de la note # 48, soit le do du quatrième octave (C4, ou parfois C3, suivant la convention)
   switch(pitch) {
   case 48 :
     largeur = map(velocity, 0, 127, 0, width);
     luminosite = map(velocity, 0, 127, 0, 255);
     break;
-  case 50 :
+  case 50 : // ré, ou D4
     largeur = 50;
     hauteur = map(velocity, 0, 127, 50, height);
     luminosite = map(velocity, 0, 127, 0, 255);
@@ -60,11 +60,12 @@ void noteOff(int channel, int pitch, int velocity) {
 }
 
 void controllerChange(int channel, int number, int value) {
-  // Controleur continu du volume, #7)
-  if (number == 7) {
-    // Il faudra peut-être ajuster le controleur Arduino,
-    // et le forcer à envoyer des valeurs absolues
-    // Voir application MIDI Control Center.
+  // Message de la roulette de modulation, CC#1 ou Mod)
+  if (number == 1) {
+    // Avec les autres contrôles continus du Minilab d’Arturia,
+    // il faudra probablement réviser leur comportement,
+    // et les forcer à envoyer des valeurs absolues (0-127).
+    // Utilisez l’application MIDI Control Center.
     println("Value:"+value);
     angle = map(value, 0, 127, 0, 360);
   }
