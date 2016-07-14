@@ -88,7 +88,7 @@ T11 . **Synchronicités audiovisuelles et gestion d’événements** - mardi, se
 Typologie des actions et des dynamiques d’événement :
 
 1. Bang binaire (du type On|Off);
-2. Bang avec donnée d’intensité (une note MIDI et sa vélocité, par exemple);
+2. Déclenchement modulé (une note MIDI et sa vélocité, par exemple);
 3. Continuum : éléments qui se succèdent d’une façon continue (les contrôles continus – CC – en MIDI par exemple);
 4. Geste : mouvement d’un tracé sur une surface et transposition de la donnée au besoin.
 
