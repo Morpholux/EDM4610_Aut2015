@@ -31,7 +31,7 @@ class Pulsation extends TimerTask {
   // Méthode permettant de dessiner quelque chose en fonction du rythme de pulsation
   void afficher() {
     fill(255, alfa);
-    ellipse(100, 100, 40, 40);
+    ellipse(100, 100, 150, 150);
     if (alfa>0) alfa-=20;
     else alfa=0;
   }
@@ -41,4 +41,3 @@ class Pulsation extends TimerTask {
     timer.cancel();
   }
 }
-

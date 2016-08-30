@@ -41,6 +41,5 @@ void mousePressed() {
 
 void mouseReleased() {
   // Création d’un nouvel objet
-  pulsation = new Pulsation(0, (int)random(200, 1000));
+  pulsation = new Pulsation(0, 500);
 }
-
