@@ -19,10 +19,8 @@ int sourisX, sourisY;
 // est ajustée aux dimensions d’une image importée.
 
 void setup() {
-  // 1. modification à la propriété de changement de taille de sketch :
-  surface.setResizable(true);
   img = loadImage("ying.jpg");
-  // 2. commande de rajustement de la taille du sketch :
+  // Commande de rajustement de la taille du sketch en fonction des dimensions de l’image :
   surface.setSize(img.width, img.height);
   imgCopie = createImage(img.width, img.height, RGB); // seule la copie sera modifiée, évitant ainsi d’altérer l’original
 
@@ -100,12 +98,5 @@ void mouseDragged() {
 int maFonction(int posX, int posY) {
   int monIndex;
   monIndex = (posY*width)+posX;
-
-  // La solution de Marc-Antoine ne couvre pas tous les problèmes,
-  // car on peut sortir à droite du sketch…
-  // et on restera quand même à l’intérieur des limites du tableau.
-  // Mieux vaut appliquer la commande constrain() en amont dans le code.
-  //return constrain(monIndex, 0, (width*height)-1);
-
   return monIndex;
 }
