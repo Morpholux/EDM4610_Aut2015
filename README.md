@@ -80,9 +80,8 @@ T11 . **Synchronicités audiovisuelles et gestion d’événements** - mardi, se
 
 À l’instar des techniques de VJing, votre *Sketch*, même si minimaliste, permettra de faire des interventions **pendant l’écoute d’une musique**. Il y a donc lieu de développer des effets qui vont contribuer à donner une certaine vitalité, ou à exploiter des mécanismes de déclenchement ponctuel, afin de renforcer la relation entre l’image et le son. L’utilisation d’un contrôleur MIDI est à considérer.
 
-[![Visual Music]
-(https://dl.dropboxusercontent.com/s/65idcjiokkx0szb/visual_music_small.jpeg
-"Quelques livres sur le thème de la visualisation de la musique")]
+![Visual Music](https://dl.dropboxusercontent.com/s/65idcjiokkx0szb/visual_music_small.jpg
+"Quelques livres sur le thème de la visualisation de la musique")
 
 
 Typologie des actions et des dynamiques d’événement :
