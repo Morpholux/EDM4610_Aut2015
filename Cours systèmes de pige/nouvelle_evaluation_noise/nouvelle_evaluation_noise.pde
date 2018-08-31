@@ -18,9 +18,10 @@ void setup() {
   background(0);
   stroke(255);
   noFill();
+  //noLoop();
 
   // Si l’on veut que le parcours erratique soit identique à chaque compilation
-  //noiseSeed(0);
+  // noiseSeed(0);
   // Sinon :
   noiseSeed(System.currentTimeMillis());
 
